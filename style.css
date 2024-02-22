@@ -1,0 +1,85 @@
+#title.bg{
+    background-image:url("./title\ background.png");
+    background-size: cover;
+    height: 900px;
+    overflow: hidden;  
+    flex-shrink: 1;
+    min-width: 100px ;
+
+}
+
+div>h1{
+        font-size: 140px;
+        font-family: serif;
+        color: whitesmoke;
+        padding-top: 20%;
+        padding-left: 5%;  
+}
+.title>h2{
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: whitesmoke;
+    padding-left: 5%;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.header{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #9cb5d2;
+}
+
+.button{
+    background-color: #c79472;
+    color:whitesmoke;
+    font-family: Georgia, serif;
+}
+
+.bi{ 
+    color:#c79472;
+    font-family: Georgia, serif;
+}
+
+#skills.bg{
+    background-color:#fff7ef ;
+}
+
+#contact.bg{
+    background-image:url("./profile\ bg.png");
+    height: 800px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media (max-width: 680px) {
+    div>h1{
+        font-size: 80px;
+        font-family: serif;
+        color: whitesmoke;
+        padding-top: 0%;
+        padding-left: 5%;  
+}
+
+#title.bg{
+    background-size: cover;
+    height: 500px;
+    display:flex;
+    flex-grow: 1;
+    min-width: 300px ;
+}
+
+#contact.bg{
+    height: 500px;
+    background-size: cover;
+    overflow: hidden
+    
+}
+
+}
+
