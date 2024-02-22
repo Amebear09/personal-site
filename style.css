@@ -1,10 +1,9 @@
 #title.bg{
     background-image:url("./title\ background.png");
     background-size: cover;
-    height: 900px;
+    height: 100vh;
     overflow: hidden;  
-    flex-shrink: 1;
-    min-width: 100px ;
+    background-position: center;
 
 }
 
@@ -12,8 +11,8 @@ div>h1{
         font-size: 140px;
         font-family: serif;
         color: whitesmoke;
-        padding-top: 20%;
-        padding-left: 5%;  
+        padding-top: 10%;
+        padding-left: %;  
 }
 .title>h2{
     font-size: 20px;
@@ -55,6 +54,7 @@ div>h1{
     height: 800px;
     background-size: cover;
     overflow: hidden;
+    background-position: center -10rem;
 }
 
 @media (max-width: 680px) {
@@ -62,23 +62,20 @@ div>h1{
         font-size: 80px;
         font-family: serif;
         color: whitesmoke;
-        padding-top: 0%;
+        padding-top: 10%;
         padding-left: 5%;  
 }
 
 #title.bg{
     background-size: cover;
-    height: 500px;
-    display:flex;
-    flex-grow: 1;
-    min-width: 300px ;
+    height: 50vh;
 }
 
 #contact.bg{
-    height: 500px;
+    height: 50vh;
     background-size: cover;
-    overflow: hidden
-    
+    overflow: hidden;
+    background-position: -10rem;
 }
 
 }
